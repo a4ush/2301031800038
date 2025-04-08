@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile & Activity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background: #4A1DA1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            position: relative;
+        }
+        .profile-container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            margin: 15px;
+        }
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: navy;
+            display: inline-block;
+        }
+        .profile-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .activity-section {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 15px;
+        }
+        .chart {
+            height: 200px;
+            background: #ff9f43;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .summary {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+        .summary-box {
+            background: #ececec;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Profile</div>
+    <div class="profile-container">
+        <div class="profile-img"></div>
+        <div class="profile-name">Fillo Design Agency</div>
+        <p>Joined March 2023</p>
+        <button>Add Language +</button>
+    </div>
+    <div class="activity-section">
+        <h3>My Activity</h3>
+        <p><strong>Total hours:</strong> 8h 20min (This Week)</p>
+        <div class="chart"></div>
+        <div class="summary">
+            <div class="summary-box">Total Time: 10hr 20min</div>
+            <div class="summary-box">Courses: 4 Courses</div>
+        </div>
+    </div>
+</body>
+</html>
+
